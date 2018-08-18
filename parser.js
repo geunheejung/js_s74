@@ -1,9 +1,4 @@
-/*
-<div style="">
-name을 구한 
-
-
-*/
+// TODO 각 로직 함수 분리 해야함.
 
 class Tag {
   constructor(type, name) {
