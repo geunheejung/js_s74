@@ -40,3 +40,4 @@ const Renderer = class {
     throw 'override!';
   }
 }
+const el = el => document.createElement(el);
