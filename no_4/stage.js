@@ -3,7 +3,7 @@
  * @type {Stage}
  */
 const Stage = class {
-  static maxStage = 20;
+
 
   // TODO 생성자에서 'listener' 을 받지 않은 이유는
   /*
@@ -41,4 +41,4 @@ const Stage = class {
     return `<div>Stage ${this.stage}</div>`;
   }
 }
-
+Stage.maxStage = 20;
